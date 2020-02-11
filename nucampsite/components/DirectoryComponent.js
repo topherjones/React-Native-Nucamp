@@ -14,7 +14,7 @@ class Directory extends Component {
 
     static navigationOptions = {
         title: 'Directory'
-    };
+    }; 
 
     render() {
         const { navigate } = this.props.navigation;
@@ -38,5 +38,6 @@ class Directory extends Component {
         );
     }
 }
+
 
 export default Directory;
